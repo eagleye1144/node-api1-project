@@ -96,4 +96,4 @@ server.delete('/api/users/:id', async (req, res)=>{
         res.status(200).json(deletedUser)
     }
 })
-module.exports = {}; // EXPORT YOUR SERVER instead of {}
+module.exports = server // EXPORT YOUR SERVER instead of {}
